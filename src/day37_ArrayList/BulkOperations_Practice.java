@@ -1,0 +1,31 @@
+package day37_ArrayList;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class BulkOperations_Practice {
+
+    public static void main(String[] args) {
+
+        ArrayList<String> students = new ArrayList<>();
+
+        students.add("Sayeem");
+        students.add("Waqar");
+        students.add("Beslan");
+        students.add("Dawud");
+        students.add("Ramazan");
+        students.add("Mehary");
+
+       boolean r1 = students.containsAll(Arrays.asList("Ulku","Busra","Muhtar"));
+
+        System.out.println(r1);
+
+        ArrayList<String> group1 = new ArrayList<>();
+
+        group1.addAll(Arrays.asList("Banu","Vildan","Amir","Askat","Ayse","Diell","Hamit","Minara"));
+
+
+
+
+    }
+}
