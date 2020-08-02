@@ -24,6 +24,20 @@ public class BulkOperations_Practice {
 
         group1.addAll(Arrays.asList("Banu","Vildan","Amir","Askat","Ayse","Diell","Hamit","Minara"));
 
+        boolean r2 = group1.containsAll(Arrays.asList("Mike","Pete"));
+
+        System.out.println( r2);
+
+        System.out.println("=====================================");
+
+
+        ArrayList<String> employee = new ArrayList<>();
+        employee.addAll(Arrays.asList("Ahmed","Muhtar","Ahmed","Virginia","Beslan"));
+
+       // employee.removeAll(Arrays.asList("Ahmed"));removes element
+        employee.retainAll(Arrays.asList("Ahmed"));//retain element
+        System.out.println(employee);
+
 
 
 
