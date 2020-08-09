@@ -27,6 +27,8 @@ public class CarMax {
         car4.getInfo();
         car5.getInfo();
 
+        car3.start();
+
 
     }
 }

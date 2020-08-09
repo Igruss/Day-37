@@ -28,8 +28,13 @@ public class Car {
     public void getInfo(){
         System.out.println(year + " " + brand + " " + model + ", " + colour +
                 ", " + mileage + ", $" + price);
-
     }
+
+    public void start(){
+        System.out.println(brand+" "+model+" is started");
+    }
+
+
 }
 
 
