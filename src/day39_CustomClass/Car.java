@@ -13,5 +13,17 @@ public class Car {
     double mileage ;
     double price ;
 
+    public  void setInfo(String carBrand,String carModel,int carYear
+    ,String carColour,double carMileage,double carPrice){
+        brand = carBrand;
+        model = carModel ;
+        year = carYear;
+        colour = carColour;
+        mileage = carMileage;
+        price = carPrice;
+
+
+    }
+
 
 }
