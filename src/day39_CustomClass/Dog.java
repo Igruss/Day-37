@@ -27,5 +27,14 @@ public class Dog {
                 size+", Color: "+color+", Age: "+age+" years old");
     }
 
+    public void eat(String food){
+        System.out.println(name+" is eating "+food);
+
+    }
+
+    public void drink(String drink){
+        System.out.println(name+" is drinking "+drink);
+    }
+
 
 }
