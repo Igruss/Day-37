@@ -39,6 +39,18 @@ public class CarObjects {
         System.out.println(car2.year);
         System.out.println(car2.colour);
 
+        Car car3 = new Car();
+        car3.setInfo("Audi","A7",2017,"White",
+                32987,34555);
+
+        Car car4 = new Car();
+        car4.setInfo("Jeep","Wrangler",1995,"Brown",
+                154335,9887.99);
+
+        System.out.println(car4);
+
+
+
 
     }
 }
