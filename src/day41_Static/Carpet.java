@@ -40,6 +40,7 @@ public class Carpet {
         System.out.println("Width: "+width);
         System.out.println("Length: "+length);
         System.out.println("Unit Price: "+unitPrice);
+        System.out.println("Persian Carpet: "+isPersian);
         System.out.println("Totoal Price: "+calCost());
         System.out.println("==================================");
     }
