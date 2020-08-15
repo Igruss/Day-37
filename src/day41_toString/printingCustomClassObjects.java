@@ -1,6 +1,4 @@
-package day41_Static;
-
-import day39_CustomClass.Car;
+package day41_toString;
 
 public class printingCustomClassObjects {
 
