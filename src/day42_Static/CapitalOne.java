@@ -35,14 +35,14 @@ public class CapitalOne {
         }
 
         System.out.println("=======================================");
-        team1.removeTester(15333);
-        team1.removeDeveloper(2111);
-        team1.removeDeveloper(43333);
+        team1.removeTester(12588);
+        team1.removeDeveloper(25888);
+        team1.removeDeveloper(25883);
         System.out.println(team1);
 
         System.out.println("======================================");
         Developer dev1 =  new Developer();
-        dev1.setInfo("luisa", 'f', 2113L, "Dev Lead" , 500000);
+        dev1.setInfo("Luisa", 'f', 2113L, "Dev Lead" , 500000);
 
         team1.addDeveloper(dev1);
 
