@@ -14,4 +14,11 @@ public class StaticMethods {
         System.out.println(obj.a);
 
     }
+
+    public static void staticMethod (){
+
+    }
+    public void instanceMethod (){
+
+    }
 }
