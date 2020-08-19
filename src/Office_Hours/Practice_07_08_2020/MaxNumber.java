@@ -1,4 +1,4 @@
-package Office_Hours.Practice07_08_2020;
+package Office_Hours.Practice_07_08_2020;
 
 import java.util.Scanner;
 
