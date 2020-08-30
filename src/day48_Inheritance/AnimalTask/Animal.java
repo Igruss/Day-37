@@ -6,12 +6,17 @@ public class Animal {
    public String size;
    public int age;
    public char gender;
+   public String breed;
+   public double lb;
 
-   public void setInfo(String name,String size,int age,char gender){
+   public void setInfo(String name,String size,int age,char gender,String breed,double lb){
        this.name=name;
        this.size=size;
        this.age=age;
        this.gender=gender;
+       this.breed = breed;
+       this.lb = lb;
+
 
    }
 
@@ -23,7 +28,8 @@ public class Animal {
    }
 
    public String toString(){
-       return "Name: "+name+", Age: "+age+", Size: "+size+", Gender: "+gender;
+       return "Name: "+name+", Age: "+age+", Size: "+size+", Gender: "+gender+
+               ", Breed: "+breed+", Weight: "+lb+" lbs";
    }
 
 
