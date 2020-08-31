@@ -17,6 +17,10 @@ public class Person {
         return ssn;
     }
 
+    public void setSsn(long ssn){
+        this.ssn = ssn;
+    }
+
     private void eat(){
         System.out.println(name+"is eating");
     }
