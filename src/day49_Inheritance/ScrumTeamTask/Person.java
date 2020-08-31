@@ -11,6 +11,12 @@ public class Person {
     public  int age;
     public char gender;
 
+    private long ssn;
+
+    public long getSsn() {
+        return ssn;
+    }
+
     private void eat(){
         System.out.println(name+"is eating");
     }
