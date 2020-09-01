@@ -11,13 +11,13 @@ public class Person {
     public  int age;
     public char gender;
 
-    private long ssn;
+    private long ssn;// we do not ssn to be inherited to the sub classes
 
-    public long getSsn() {
+    public long getSsn() { // read only
         return ssn;
     }
 
-    public void setSsn(long ssn){
+    public void setSsn(long ssn){ // set only
         this.ssn = ssn;
     }
 
@@ -31,7 +31,7 @@ public class Person {
         System.out.println(name+"is sleeping");
     }
 
-    public void setPersonInfo(String name, int age, char gender){//only sets name,Age,gender
+    public void setInfo(String name, int age, char gender){//only sets name,Age,gender
         this.name= name;
         this.age= age;
         this.gender= gender;
