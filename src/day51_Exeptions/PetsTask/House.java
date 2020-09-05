@@ -19,6 +19,9 @@ public class House {
         tiger1.eat();
         tiger1.drink();
 
+        dog1.drink();
+        cat1.eat();
+
 
 
     }
