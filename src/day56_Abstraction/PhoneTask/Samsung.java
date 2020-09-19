@@ -1,4 +1,4 @@
-package day56_Abstraction;
+package day56_Abstraction.PhoneTask;
 
 public final class Samsung extends Phone{
 

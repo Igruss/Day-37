@@ -1,4 +1,4 @@
-package day56_Abstraction;
+package day56_Abstraction.PhoneTask;
 /*
 1. create an abstract class called Phone
             attributes: brand, model, price, size
