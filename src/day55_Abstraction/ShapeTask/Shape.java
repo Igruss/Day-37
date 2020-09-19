@@ -22,5 +22,5 @@ public abstract class Shape { // class cannot create object,cannot be final
 // do triangle,square,cube,cone
 
 
+    }
 
-}
