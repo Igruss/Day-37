@@ -9,7 +9,7 @@ public class IteratingKeysValues {
 
     public static void main(String[] args) {
 
-        Map<String , LocalDate> students = new TreeMap<>();
+        Map<String , LocalDate> students = new TreeMap<>(); // sorting the map by the Keys
 
         students.put("Hasan", LocalDate.of(1985,4,4));
         students.put("Raya", LocalDate.of(1989,6,11));
